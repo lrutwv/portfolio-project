@@ -39,22 +39,23 @@
         <h2>Feedback Form</h2>
         <p>Please fill out the form below to share
              a little information and your feedback about my portfolio website.</p>
-        <label for="name">Full Name:</label> 
-        <input type="text" id="name" required><br><br>
-        <label for="age">Age:</label>
-        <input type="number" id="age" required><br>
-        <p>Gender:</p>
-        <input type="radio" id="male" name="gender">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender">
-        <label for="female">Female</label>
+        <label>Full Name:</label> 
+        <input type="text" placeholder="your full name" required><br><br>
+        <label>Age:</label>
+        <input type="number" placeholder=" your age" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"><span>Male</span>
+        <br>
+        <input type="radio" name="gender" value="female"><span>Female</span>
         <br><br>
-        <input type="checkbox" id="subscribe">
-        <label for="subscribe"> Interested in seeing updates</label>
+        <label> What did you like about my portfolio?</label> <br>
+        <input type="checkbox" name="yesno" value="design"><span> Design</span>
+        <input type="checkbox" name="yesno" value="content"><span> Content</span>
+        <input type="checkbox" name="yesno" value="navigation"><span> Navigation</span>
         <br><br>
-        <label for="satisfaction"> Portfolio Rating:</label><br>
+        <label> Portfolio Rating:</label><br>
         0<input type="range"
-       id="satisfaction"
+       value="5"
        min="0"
        max="10"> 10
        <br><br>
