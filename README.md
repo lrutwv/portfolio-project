@@ -37,4 +37,4 @@ This project was created to practice the fundamentals of HTML, including:
 
 ## Author
 
-Ruth Hailu
+https://github.com/lrutwv
